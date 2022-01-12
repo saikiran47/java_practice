@@ -1,25 +1,17 @@
 package com.company;
 
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Swapping two numbers");
-        int x = 10 ;
-        int y = 20 ;
-        int temp = x ;
-        x =y;
-        y = temp;
-        System.out.println("value of x = "+x);
-        System.out.println("value of y = "+y);
+        System.out.println("Sum of the digits of an integer");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Input an integer : ");
+        int x = scanner.nextInt();
 
 
-
-
-
-
-
-    }
-
+}
 }
 
